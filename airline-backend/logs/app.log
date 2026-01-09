@@ -1,0 +1,98 @@
+2026-01-09T11:42:59.443+07:00  INFO 23160 --- [airline-booking] [restartedMain] c.p.a.AirlineBookingApplication          : Starting AirlineBookingApplication using Java 25.0.1 with PID 23160 (/home/khang-nguyen/Coding Journey/repos/airline-booking/airline-backend/target/classes started by khang-nguyen in /home/khang-nguyen/Coding Journey/repos/airline-booking/airline-backend)
+2026-01-09T11:42:59.444+07:00 DEBUG 23160 --- [airline-booking] [restartedMain] c.p.a.AirlineBookingApplication          : Running with Spring Boot v3.5.9, Spring v6.2.15
+2026-01-09T11:42:59.444+07:00  INFO 23160 --- [airline-booking] [restartedMain] c.p.a.AirlineBookingApplication          : The following 1 profile is active: "dev"
+2026-01-09T11:42:59.468+07:00  INFO 23160 --- [airline-booking] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-09T11:42:59.468+07:00  INFO 23160 --- [airline-booking] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-09T11:42:59.942+07:00  INFO 23160 --- [airline-booking] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-09T11:42:59.953+07:00  INFO 23160 --- [airline-booking] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2026-01-09T11:43:00.209+07:00  INFO 23160 --- [airline-booking] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-01-09T11:43:00.216+07:00  INFO 23160 --- [airline-booking] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-09T11:43:00.216+07:00  INFO 23160 --- [airline-booking] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-01-09T11:43:00.235+07:00  INFO 23160 --- [airline-booking] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-09T11:43:00.236+07:00  INFO 23160 --- [airline-booking] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 767 ms
+2026-01-09T11:43:00.363+07:00  INFO 23160 --- [airline-booking] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-09T11:43:00.393+07:00  INFO 23160 --- [airline-booking] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.39.Final
+2026-01-09T11:43:00.416+07:00  INFO 23160 --- [airline-booking] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-09T11:43:00.570+07:00  INFO 23160 --- [airline-booking] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-09T11:43:00.585+07:00  INFO 23160 --- [airline-booking] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-09T11:43:00.797+07:00  INFO 23160 --- [airline-booking] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46efca43
+2026-01-09T11:43:00.798+07:00  INFO 23160 --- [airline-booking] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-09T11:43:00.828+07:00  WARN 23160 --- [airline-booking] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-09T11:43:00.837+07:00  INFO 23160 --- [airline-booking] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-09T11:43:00.994+07:00  INFO 23160 --- [airline-booking] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-09T11:43:00.996+07:00  INFO 23160 --- [airline-booking] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-09T11:43:01.162+07:00  WARN 23160 --- [airline-booking] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2026-01-09T11:43:01.323+07:00  WARN 23160 --- [airline-booking] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: feabe3f8-0429-427f-a793-9213a368ae67
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-01-09T11:43:01.326+07:00  INFO 23160 --- [airline-booking] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-01-09T11:43:01.376+07:00  INFO 23160 --- [airline-booking] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path '/actuator'
+2026-01-09T11:43:01.392+07:00 DEBUG 23160 --- [airline-booking] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, CsrfFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-01-09T11:43:01.457+07:00  INFO 23160 --- [airline-booking] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-01-09T11:43:01.494+07:00  INFO 23160 --- [airline-booking] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-01-09T11:43:01.503+07:00  INFO 23160 --- [airline-booking] [restartedMain] c.p.a.AirlineBookingApplication          : Started AirlineBookingApplication in 2.33 seconds (process running for 2.676)
+2026-01-09T11:43:01.970+07:00  INFO 23160 --- [airline-booking] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-09T11:43:01.970+07:00  INFO 23160 --- [airline-booking] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-09T11:43:01.971+07:00  INFO 23160 --- [airline-booking] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-01-09T11:45:15.739+07:00  INFO 23160 --- [airline-booking] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2026-01-09T11:45:15.742+07:00  INFO 23160 --- [airline-booking] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-09T11:45:15.743+07:00  INFO 23160 --- [airline-booking] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-01-09T11:45:15.747+07:00  INFO 23160 --- [airline-booking] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-09T11:45:15.749+07:00  INFO 23160 --- [airline-booking] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-09T11:45:15.753+07:00  INFO 23160 --- [airline-booking] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-01-09T11:45:15.817+07:00  INFO 23160 --- [airline-booking] [restartedMain] c.p.a.AirlineBookingApplication          : Starting AirlineBookingApplication using Java 25.0.1 with PID 23160 (/home/khang-nguyen/Coding Journey/repos/airline-booking/airline-backend/target/classes started by khang-nguyen in /home/khang-nguyen/Coding Journey/repos/airline-booking/airline-backend)
+2026-01-09T11:45:15.817+07:00 DEBUG 23160 --- [airline-booking] [restartedMain] c.p.a.AirlineBookingApplication          : Running with Spring Boot v3.5.9, Spring v6.2.15
+2026-01-09T11:45:15.817+07:00  INFO 23160 --- [airline-booking] [restartedMain] c.p.a.AirlineBookingApplication          : The following 1 profile is active: "dev"
+2026-01-09T11:45:15.931+07:00  INFO 23160 --- [airline-booking] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-09T11:45:15.932+07:00  INFO 23160 --- [airline-booking] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2026-01-09T11:45:15.983+07:00  INFO 23160 --- [airline-booking] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-01-09T11:45:15.983+07:00  INFO 23160 --- [airline-booking] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-09T11:45:15.984+07:00  INFO 23160 --- [airline-booking] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-01-09T11:45:15.989+07:00  INFO 23160 --- [airline-booking] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-09T11:45:15.989+07:00  INFO 23160 --- [airline-booking] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 171 ms
+2026-01-09T11:45:16.023+07:00  INFO 23160 --- [airline-booking] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-09T11:45:16.024+07:00  INFO 23160 --- [airline-booking] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-09T11:45:16.029+07:00  INFO 23160 --- [airline-booking] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-09T11:45:16.029+07:00  INFO 23160 --- [airline-booking] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-01-09T11:45:16.042+07:00  INFO 23160 --- [airline-booking] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37ae06b
+2026-01-09T11:45:16.042+07:00  INFO 23160 --- [airline-booking] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-01-09T11:45:16.043+07:00  WARN 23160 --- [airline-booking] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-09T11:45:16.044+07:00  INFO 23160 --- [airline-booking] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 9.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-09T11:45:16.053+07:00  INFO 23160 --- [airline-booking] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-09T11:45:16.054+07:00  INFO 23160 --- [airline-booking] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-09T11:45:16.102+07:00  WARN 23160 --- [airline-booking] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2026-01-09T11:45:16.164+07:00  WARN 23160 --- [airline-booking] [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: b93a7e0b-9748-4e80-9006-ef4533b99c9b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-01-09T11:45:16.165+07:00  INFO 23160 --- [airline-booking] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-01-09T11:45:16.172+07:00  INFO 23160 --- [airline-booking] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path '/actuator'
+2026-01-09T11:45:16.180+07:00 DEBUG 23160 --- [airline-booking] [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, CsrfFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-01-09T11:45:16.204+07:00  INFO 23160 --- [airline-booking] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-01-09T11:45:16.215+07:00  INFO 23160 --- [airline-booking] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-01-09T11:45:16.219+07:00  INFO 23160 --- [airline-booking] [restartedMain] c.p.a.AirlineBookingApplication          : Started AirlineBookingApplication in 0.416 seconds (process running for 137.392)
+2026-01-09T11:45:16.220+07:00  INFO 23160 --- [airline-booking] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-01-09T17:31:23.221+07:00  INFO 23160 --- [airline-booking] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-09T17:31:23.222+07:00  INFO 23160 --- [airline-booking] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-01-09T17:31:23.224+07:00  INFO 23160 --- [airline-booking] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-09T17:31:23.225+07:00  INFO 23160 --- [airline-booking] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-01-09T17:31:23.227+07:00  INFO 23160 --- [airline-booking] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
