@@ -35,10 +35,10 @@ public class User {
     private boolean emailVerified;
 
     @Column(nullable = false)
-    @Enumerated
+    @Enumerated(EnumType.STRING)
     private AuthMethod provider;
 
-    private UUID providerId;
+    private String providerId;
 
     private boolean isActive;
 
